@@ -9,23 +9,44 @@
 </head>
 <body>
     <header>
-        <nav id="topNav">
-            <a href="#">About Us</a>
-        <a href="#">Log in</a>
-        <nav id="mainNav">   
-            <ul>
-                <a href="#"><img src="https://i.pinimg.com/564x/19/7a/f1/197af128c9a7cae555a5a1b4dbe853b8.jpg" alt="Twitter"  class="socialIcon" style="border-radius: 150px;" width="58" height="56" /></a></li>
-                <a href="#"><img src="https://i.pinimg.com/originals/9d/7e/d3/9d7ed380385010c2a31bb9746c5f2e75.jpg" alt="Instagram"  class="socialIcon" style="border-radius: 150px;" width="58" height="56" /></a></li>
-                <a href="#"><img src="https://i1.wp.com/guitarandlace.com/wp-content/uploads/2021/03/Facebook-4.jpg?resize=500%2C500&ssl=1" alt="Facebook"  class="socialIcon" style="border-radius: 150px;" width="58" height="56" /></a></li>
-                <a href="#">Shoping Cart</a></li>
-                <input type="search" id="search" placeholder="Search"></li>
-            </ul>
-        </nav>
+        <div class="contentWrapper">
+            <nav id="topNav">
+                <a href="#">About Us</a>
+            <a href="#">Log in</a>
+            <nav id="mainNav">   
+                <ul>
+                    <a href="#"><img src="https://i.pinimg.com/564x/19/7a/f1/197af128c9a7cae555a5a1b4dbe853b8.jpg" alt="Twitter"  class="socialIcon" style="border-radius: 150px;" width="58" height="56" /></a></li>
+                    <a href="#"><img src="https://i.pinimg.com/originals/9d/7e/d3/9d7ed380385010c2a31bb9746c5f2e75.jpg" alt="Instagram"  class="socialIcon" style="border-radius: 150px;" width="58" height="56" /></a></li>
+                    <a href="#"><img src="https://i1.wp.com/guitarandlace.com/wp-content/uploads/2021/03/Facebook-4.jpg?resize=500%2C500&ssl=1" alt="Facebook"  class="socialIcon" style="border-radius: 150px;" width="58" height="56" /></a></li>
+                    <a href="#">Shoping Cart</a></li>
+                    <input type="search" id="search" placeholder="Search"></li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
 
-    <h1>Love Guinea</h1>
-    <h2>Shop everything for your Guinea Pig here!</h2>
+    <div>
+        <h1>Sign Up</h1>
+            <form>
+
+                <div>
+                    <input type="email" placeholder="Email" name="email" required />
+                </div>
+
+                <div>
+                    <input type="number" placeholder="Phone Number" name="phoneNumber" required />
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+
+        </form>
+    </div>
+
+
+
 
     <section class="banner">
         <div class="bannerText">
@@ -75,15 +96,46 @@
 
 
 
-    <section id="sidebar">
+    <div class="contentWrapper">
+        <section id="sidebar">
+            <h1>What Our Bedding is Made Of</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce et lorem urna. Curabitur tincidunt volutpat ex, a eleifend purus. Maecenas condimentum euismod neque ut porttitor. Nunc a ligula nisi. Etiam in elit quis lorem varius finibus id convallis massa. Suspendisse et ligula semper, interdum tortor nec, tempor mi. Donec et purus et neque egestas vulputate. Sed ut enim eget massa condimentum sollicitudin quis eu augue. Maecenas venenatis fermentum eros, et imperdiet eros suscipit non. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce consequat metus ipsum. Nullam et leo mauris. </p>
+            <br />
+            <h1>Different Treat Recipes</h1>
+            <ol>
+                <li><a href="#">Cucumber pastry</a></li>
+                <li><a href="#">Carrot cake</a></li>
+            </ol>
+            <br />
+        </section>
+    </div>
+
+    <section id="main" class="contentWrapper">
+        <h1>Shop for our new bedding</h1>
+        <div class="panel">
+            <img src="https://m.media-amazon.com/images/I/81y127E+6eL._AC_SL1500_.jpg" class="bedType" alt="bedding" style="border-radius: 50px;" width="258" height="236" />
+            <h2>Mini soft cave</h2>
+            <p>This soft little cave will be a perfect hideout for your little friend.</p>
+            <button>Order</button>
+        </div>
+        <div class="panel">
+            <img src="https://m.media-amazon.com/images/I/81dAEUyor7L._AC_SL1500_.jpg" class="bedType" alt="bedding" style="border-radius: 50px;" width="258" height="236" />
+            <h2>Medium Size Pads</h2>
+            <p>These medium size pads are perfect for bedding they are easily machine washable.</p>
+            <button>Order</button>
+        </div>
+        <div class="panel">
+            <img src="http://www.guineapigmarket.com/Shared/images/Product/liner2x35-rainbows.jpg" class="bedType" alt="bedding" style="border-radius: 50px;" width="258" height="236" />
+            <h2>Colorful Fleece</h2>
+            <p>There are several different colors of fleece on our website but today we are coming out with our new design.</p>
+            <button>Order</button>
+        </div>
+        
 
 
     </section>
 
-    <section id="main">
-
-
-    </section>
+    <div class="clear"></div>
 
     <footer id="footer">
         <p class="footer-1">
@@ -100,6 +152,3 @@
 </body>
 </html>
 
-
-
-  
